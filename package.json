@@ -3,10 +3,10 @@
 	"version": "0.0.0",
 	"description": "bah",
 	"scripts": {
-		"build": "yarn @11ty/eleventy",
-		"build-ghpages": "yarn @11ty/eleventy --pathprefix=/places-of-spam/",
-		"Dev": "yarn @11ty/eleventy --serve --quiet",
-		"start": "yarn @11ty/eleventy --serve --quiet"
+		"build": "yarn eleventy",
+		"build-ghpages": "yarn eleventy --pathprefix=/places-of-spam/",
+		"dev": "yarn eleventy --serve --quiet",
+		"start": "yarn eleventy --serve --quiet"
 	},
 	"license": "MIT",
 	"engines": {
