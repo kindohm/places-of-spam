@@ -1,0 +1,20 @@
+<ul>
+	{% for post in postslist | reverse %}
+		<li>
+			<h3>
+				<a href="{{ post.url }}">
+					{% if post.data.title %}{{ post.data.title }}
+					{% else %}
+						<code>{{ post.url }}</code>
+					{% endif %}
+				</a>
+			</h3>
+			<div>
+				<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("yyyy-MM-dd") }}</time>
+			</div>
+			<div>
+				{{ post.content | safe }}
+			</div>
+		</li>
+	{% endfor %}
+</ul>
