@@ -2,8 +2,8 @@
 	"version": "https://jsonfeed.org/version/1.1",
 	"title": "Places of Spam",
 	"language": "en",
-	"home_page_url": "https://example.com/places-of-spam/",
-	"feed_url": "https://example.com/places-of-spam/feed/feed.json",
+	"home_page_url": "https://example.com/",
+	"feed_url": "https://example.com/feed/feed.json",
 	"description": "Places of spam",
 	"author": {
 		"name": "Your Name Here",
@@ -11,10 +11,10 @@
 	},
 	"items": [
 		{
-			"id": "https://example.com/places-of-spam/blog/2024-03-18/",
-			"url": "https://example.com/places-of-spam/blog/2024-03-18/",
+			"id": "https://example.com/blog/2024-03-18/",
+			"url": "https://example.com/blog/2024-03-18/",
 			"title": "spam in the office",
-			"content_html": "<img src=\"https://example.com/places-of-spam/img/uvOUXfON2l-600.png\" alt=\"spam in the office\">\n",
+			"content_html": "<img src=\"https://example.com/img/uvOUXfON2l-600.png\" alt=\"spam in the office\">\n",
 			"date_published": "2024-03-18T00:00:00Z"
 		}
 		

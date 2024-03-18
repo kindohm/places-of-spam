@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>Places of Spam</title>
 	<subtitle>Places of spam</subtitle>
-	<link href="https://example.com/places-of-spam/feed/feed.xml" rel="self"/>
-	<link href="https://example.com/places-of-spam/"/>
+	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
 	<updated>2024-03-18T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
@@ -13,10 +13,10 @@
 	
 	<entry>
 		<title>spam in the office</title>
-		<link href="https://example.com/places-of-spam/blog/2024-03-18/"/>
+		<link href="https://example.com/blog/2024-03-18/"/>
 		<updated>2024-03-18T00:00:00Z</updated>
-		<id>https://example.com/places-of-spam/blog/2024-03-18/</id>
-		<content type="html">&lt;img src=&quot;https://example.com/places-of-spam/img/uvOUXfON2l-600.png&quot; alt=&quot;spam in the office&quot;&gt;
+		<id>https://example.com/blog/2024-03-18/</id>
+		<content type="html">&lt;img src=&quot;https://example.com/img/uvOUXfON2l-600.png&quot; alt=&quot;spam in the office&quot;&gt;
 </content>
 	</entry>
 </feed>
