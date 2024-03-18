@@ -3,6 +3,8 @@ body {
 	background-color: #eee;
 	font-family: sans-serif;
 	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5rem;
 }
 
 main ul,
@@ -16,4 +18,31 @@ main ul li {
 	max-width: 500px;
 	margin: auto;
 	text-align: left;
+	padding: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+	margin-top: 2rem;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+img {
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.time {
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+footer {
+	margin-top: 2rem;
+	color: #999;
+	font-size: 0.75rem;
 }

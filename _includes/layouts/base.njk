@@ -38,14 +38,19 @@
 	<body>
 		<div class="container">
 			<header>
-				<a href="/" class="home-link">{{ metadata.title }}</a>
+				<h1>
+					<a href="/" class="home-link">{{ metadata.title }}</a>
+				</h1>
 			</header>
 
 			<main>
 				{{ content | safe }}
 			</main>
 
-			<footer></footer>
+			<footer>
+				&copy; Copyright 2024 a can of Spam.
+				Unauthorized duplication may result in Spam.
+			</footer>
 		</div>
 		<!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->
 	</body>
