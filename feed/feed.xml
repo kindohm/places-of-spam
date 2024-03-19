@@ -4,12 +4,21 @@
 	<subtitle>Places of spam</subtitle>
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2024-03-18T00:00:00Z</updated>
+	<updated>2024-03-19T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>spam by a fence</title>
+		<link href="https://example.com/blog/2024-03-19/"/>
+		<updated>2024-03-19T00:00:00Z</updated>
+		<id>https://example.com/blog/2024-03-19/</id>
+		<content type="html">&lt;img src=&quot;https://example.com/img/HDstCiyGqn-600.png&quot; alt=&quot;spam by a fence&quot;&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>spam in the office</title>
